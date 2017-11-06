@@ -58,8 +58,8 @@ public class Position {
 	@Override
 	public int hashCode() {
 	    int hash = 3;
-	    hash = 53 * hash + this.getY();
-	    hash = 53 * hash + this.getX();
+	    hash = 53 * hash + getY();
+	    hash = 53 * hash + getX();
 	    return hash;
 	}
 
